@@ -11,5 +11,5 @@ I've:
 The rest of the theme -- including the helpful comments --
 are courtesy of the original author.
 
-Enjoy!
+Enjoy!  
 -Colin Jaffe
