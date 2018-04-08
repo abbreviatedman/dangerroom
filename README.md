@@ -1,6 +1,6 @@
 # dangerroom
 
-A modified version of the amazing wedisagree [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)oh-my-zsh theme.
+A modified version of the amazing wedisagree [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) theme.
 
 I've:
 
