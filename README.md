@@ -1,6 +1,8 @@
 # dangerroom
 
-A modified version of the amazing wedisagree theme. I've
+A modified version of the amazing wedisagree [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)oh-my-zsh theme.
+
+I've:
 
 1. moved the directory listing to the right prompt;
 2. replaced it with the yellow X symbol;
