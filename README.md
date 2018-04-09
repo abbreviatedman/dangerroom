@@ -11,5 +11,9 @@ I've:
 The rest of the theme -- including the helpful comments --
 are courtesy of the original author.
 
+Please note that some terminal emulator-font combinations  
+display the X symbol at half height. You may consider  
+trying a different font for full dangerroom satisfaction.  
+
 Enjoy!  
 -Colin Jaffe
