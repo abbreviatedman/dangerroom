@@ -36,7 +36,7 @@
 
 # The prompt
 
-PROMPT='%{$fg[yellow]%}⨂  '
+PROMPT='%{$fg[yellow]%}⨂ '
 
 # The right-hand prompt
 
