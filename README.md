@@ -2,6 +2,8 @@
 
 A modified version of the amazing wedisagree [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) theme.
 
+---
+
 ### Things I love and kept about wedisagree:
 
 #### 1. It's got great colors.  
@@ -26,6 +28,8 @@ A modified version of the amazing wedisagree [oh-my-zsh](https://github.com/robb
 
 #### 3. I added the yellow X symbol.  
   May the danger room train you to use your powers effectively.
+
+---
 
 Please note that some terminal/font combinations display the X  
 symbol at half height. You may consider trying a different font  
