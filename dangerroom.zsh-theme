@@ -8,11 +8,16 @@
 
 # 1. Install oh-my-zsh, if you don't have it. They have excellent  
 # directions for how to do so, and you'll never look back.
+
 # 2. Take the dangerroom.zsh-theme file from this repo and put it in your  
 # `~/.oh-my-zsh/themes` directory.
+
 # 3. Edit the .zshrc file in your home directory to set the ZSH_THEME variable  
-# to the value "dangerroom" (WITH the quotes!).
+# to the value "dangerroom", like so:
+# ZSH_THEME="dangerroom"
+
 # 4. Run the command source ~/.zshrc in your terminal.
+
 # 5. Enjoy your new theme!
 
 # ---
