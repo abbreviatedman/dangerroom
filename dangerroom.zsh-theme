@@ -36,7 +36,7 @@ PROMPT='%{$FG[190]%}⨂ %{$reset_color%}'
 
 # The right-hand prompt
 
-RPROMPT='%{$FG[026]%}[%2c]%{$reset_color%} %{$FG[190]%}$(git_prompt_info)'
+RPROMPT='%{$FG[026]%}[%2c]%{$reset_color%} %{$FG[190]%}$(git_prompt_info)%{$reset_color%}'
 
 
 # Git symbols - the umbrella for a 'dirty' repo and the sun for a 'clean' one.
