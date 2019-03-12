@@ -89,7 +89,7 @@ PROMPT='%{$FG[190]%}⨂ %{$reset_color%}'
 
 # The right-hand prompt
 
-RPROMPT='%{$fg[blue]%}[%2c]%{$reset_color%} %{$FG[190]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_ahead)%{$reset_color%}'
+RPROMPT='%{$FG[026]%}[%2c]%{$reset_color%} %{$FG[190]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_ahead)%{$reset_color%}'
 
 # Add this at the start of RPROMPT to include rvm info showing ruby-version@gemset-name
 # %{$fg[yellow]%}$(~/.rvm/bin/rvm-prompt)%{$reset_color%} 
@@ -101,7 +101,7 @@ RPROMPT='%{$fg[blue]%}[%2c]%{$reset_color%} %{$FG[190]%}$(git_prompt_info)%{$res
 
 ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%} ☂"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[026]%} ☂"
 ZSH_THEME_GIT_PROMPT_UNTRACKED=""
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[190]%} ☀"
 
