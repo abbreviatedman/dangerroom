@@ -31,7 +31,7 @@
 
 # The left-hand prompt.
 
-PROMPT='%{$FG[190]%}⨂ %{$reset_color%}'
+PROMPT='%{$FG[190]%}⨂ %{$reset_color%}' # ⮿⮾
 
 
 # The right-hand prompt
@@ -39,9 +39,9 @@ PROMPT='%{$FG[190]%}⨂ %{$reset_color%}'
 RPROMPT='%{$FG[026]%}[%2c]%{$reset_color%} %{$FG[190]%}$(git_prompt_info)%{$reset_color%}'
 
 
-# Git symbols - the umbrella for a 'dirty' repo and the sun for a 'clean' one.
+# Git symbols - the x mark for a 'dirty' repo and the check mark for a 'clean' one.
 
 ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[026]%} ⚔"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[190]%} ☮"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[190]%} ⨯"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[190]%} ✓"
