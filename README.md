@@ -1,6 +1,6 @@
 # dangerroom
 
-An [oh-my-zsh][oh-my-zsh] theme.
+An [oh-my-zsh][oh-my-zsh] theme that's informative, minimal, and, above all, X-Men themed.
 
 ---
 
