@@ -65,5 +65,5 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 
 # Git symbols - the crossed swords for a 'dirty' repo and the peace symbol for a
 # 'clean' one.
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[190]%} ⨯" # ⚔☮
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[190]%} ✓"# ⚔☮
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[190]%} ⚔"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[190]%} ☮"
