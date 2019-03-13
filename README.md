@@ -20,7 +20,7 @@ directions for how to do so, and you'll never look back.
 5. Train your skills in the danger room.
 
 Please note that some terminal/font combinations display the X symbol at half  
-height or cut off on the right. Consider trying different fonts for full dangerroom satisfaction.
+height or cut off on the right. Consider trying different fonts for full dangerroom satisfaction. (Looks great in DejaVus Sans Mono, at least in my Konsole terminal.)
 
 Enjoy!
 -Colin Jaffe
