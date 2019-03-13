@@ -5,26 +5,31 @@ X-Men themed.
 
 ---
 
-#### Features
+#### What does the dangerroom theme _do_ for you?
 
-1. Your commands all line up on the left side due to a static-sized prompt. No
-more scanning left to right as you parse old commands. Just up.
-2. Shows your current directory and parent directory.
-3. Shows whether you have files changed in your repo that you haven't committed.
-"X" means you should do a commit, the check mark means you've saved all the
-changes in the current repo.
-4. _Doesn't_ have the time, the full path to your working directory, or extra
-git information. You rarely need that stuff, and you can easily get it somewhere
-else if you do.
+* The dangerroom theme lines up all your commands on the left side, thanks to
+a static-sized prompt. No more scanning left to right as you parse old commands.
+Just look straight up.
+* The dangerroom theme shows your current directory and parent directory.
+* The dangerroom theme shows whether you have files changed in your repo that
+you haven't committed. The peace symbol means you haven't made any uncommitted
+changes in your repo. The crossed swords mean that the X-Men are at _war_.
+
+#### What doesn't it do for you? 
+
+* The dangerroom theme does _not_ have the time, the full path to your working
+directory, or extra git information. You rarely need that stuff, so they
+shouldn't be crowding up your terminal. Focus and determination, young mutant.
 
 ---
 
 #### On Fonts and Terminals
 
-Please note that some terminal/font combinations display the X symbol at half  
-height or cut off on the right. Consider trying different fonts for full
-dangerroom satisfaction. (Looks great in DejaVu Sans Mono, at least in my
-Konsole terminal.)
+Please note that _some_ terminal/font combinations display the X-Men symbol and
+the git symbols cut off or at half height. Consider experimenting with combining
+different fighting techniques if you want to hone your powers and
+_survive_ once your training is complete.
+
 
 #### Installation
 
