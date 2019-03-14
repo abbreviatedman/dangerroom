@@ -5,6 +5,8 @@ X-Men themed.
 
 ---
 
+![A pictorial demonstration of dangerroom usage.](./dangerroom-demo.png "Pretty cool, huh.")
+
 #### What does the dangerroom theme _do_ for you?
 
 * The dangerroom theme lines up all your commands on the left side, thanks to
