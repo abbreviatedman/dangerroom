@@ -44,9 +44,15 @@ directions for how to do so, and you'll never look back.
 
 3. Edit the `.zshrc` file in your home directory to set the `ZSH_THEME` variable
 to the value `"dangerroom"`, like so:
-`ZSH_THEME="dangerroom"`
+```bash
+ZSH_THEME="dangerroom"
+```
 
-4. Run the command `source ~/.zshrc` in your terminal.
+4. Run the command:
+```bash
+source ~/.zshrc
+```
+in your terminal.
 
 5. Train your skills in the _danger room_.
 
