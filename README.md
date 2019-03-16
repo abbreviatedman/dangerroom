@@ -21,7 +21,8 @@ all caught up. The crossed swords mean that the X-Men are at _war_.
 
 * The dangerroom theme does _not_ have the time, the full path to your working
 directory, or extra git information. You rarely need that stuff, so they
-shouldn't be crowding up your terminal. Focus and determination, young mutant. Focus and determination.
+shouldn't be crowding up your terminal. Focus and determination, young mutant.
+Focus and determination.
 
 ---
 
@@ -35,10 +36,10 @@ and survive in a superpowered world.
 
 #### Installation
 
-1. Install [oh-my-zsh][oh-my-zsh], if you don't have it. They have excellent  
+1. Install [oh-my-zsh][oh-my-zsh], if you don't have it. They have excellent
 directions for how to do so, and you'll never look back.
 
-2. Take the `dangerroom.zsh-theme` file from this repo and put it in your  
+2. Take the `dangerroom.zsh-theme` file from this repo and put it in your
 `~/.oh-my-zsh/themes` directory.
 
 3. Edit the `.zshrc` file in your home directory to set the `ZSH_THEME` variable
