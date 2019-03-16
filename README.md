@@ -48,11 +48,11 @@ to the value `"dangerroom"`, like so:
 ZSH_THEME="dangerroom"
 ```
 
-4. Run this command in your terminal, or simply quit the terminal and relaunch.
+4. Run this command in your terminal (or simply quit the terminal and relaunch):
 ```bash
 source ~/.zshrc
 ```
 
-5. Train your skills in the _danger room_.
+5. Let the danger room sharpen your command line skills.
 
 [oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
