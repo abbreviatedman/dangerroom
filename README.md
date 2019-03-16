@@ -55,4 +55,6 @@ source ~/.zshrc
 
 5. Let the danger room sharpen your command line skills.
 
+Excelsior!
+
 [oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
