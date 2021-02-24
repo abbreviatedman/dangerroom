@@ -5,6 +5,10 @@ X-Men themed.
 
 ---
 
+Coming soon: a vim mode indicator!
+
+---
+
 ![A pictorial demonstration of dangerroom usage.](./dangerroom-demo.png "Pretty cool, huh.")
 
 #### What does the dangerroom theme _do_ for you?
