@@ -2,6 +2,8 @@
 
 # An oh-my-zsh theme that's informative, minimal, and, above all, X-Men themed.
 
+## Coming soon - a vim mode indicator!
+
 
 #### What does the dangerroom theme _do_ for you?
 
