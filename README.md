@@ -7,6 +7,8 @@ X-Men themed.
 
 Coming soon: a vim mode indicator!
 
+(Check the vim-indicator branch for the current work on it.)
+
 ---
 
 ![A pictorial demonstration of dangerroom usage.](./dangerroom-demo.png "Pretty cool, huh.")
