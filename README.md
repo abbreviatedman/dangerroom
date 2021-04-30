@@ -22,6 +22,7 @@ parse previous commands. Just look straight up.
 * The dangerroom theme shows your current git branch and whether you have files
 changed in your repo that you haven't committed. The peace symbol means you're
 all caught up. The crossed swords mean that the X-Men are at _war_.
+* The dangerroom theme shows you your current command-line vim mode.
 
 #### What doesn't it do for you? 
 
