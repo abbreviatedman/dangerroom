@@ -5,6 +5,10 @@ X-Men themed.
 
 ---
 
+This is the vim indicator branch. It's currently fully functional, but needs to be documented.
+
+---
+
 ![A pictorial demonstration of dangerroom usage.](./dangerroom-demo.png "Pretty cool, huh.")
 
 #### What does the dangerroom theme _do_ for you?
