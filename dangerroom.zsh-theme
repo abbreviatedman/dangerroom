@@ -77,7 +77,7 @@ function TRAPINT() {
 }
 
 # The right-hand prompt.
-RPROMPT='%{$FG[027]%}[%2c]%{$reset_color%}%{$FG[184]%}$(git_prompt_info)%{$reset_color%}'
+RPROMPT='%{$FG[027]%}[%2c]%{$reset_color%}%{$FG[184]%} $(git_prompt_info)%{$reset_color%}'
 
 # The empty string prefix takes the place of the `git: ` and the opening
 # parenthesis before the branch name.
