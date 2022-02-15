@@ -49,6 +49,10 @@ source ~/.zshrc
 
 Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques if you want to hone your powers and survive in a superpowered world.
 
+## Contributions Welcome
+
+In any form.
+
 Excelsior!
 
 [oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
