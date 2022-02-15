@@ -90,4 +90,3 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 # 'clean' one.
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[184]%} ⚔"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[184]%} ☮"
->>>>>>> master
