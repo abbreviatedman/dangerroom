@@ -54,10 +54,10 @@
 #### The Actual Code
 
 # The left-hand prompt.
-PROMPT='%{$FG[190]%}⨂ %{$reset_color%}'
+PROMPT='%{$FG[184]%}⨂ %{$reset_color%}'
 
 # The right-hand prompt.
-RPROMPT='%{$FG[026]%}[%2c]%{$reset_color%} %{$FG[190]%}$(git_prompt_info)%{$reset_color%}'
+RPROMPT='%{$FG[027]%}[%2c]%{$reset_color%} %{$FG[184]%}$(git_prompt_info)%{$reset_color%}'
 
 # The empty string prefix takes the place of the `git: ` and the opening
 # parenthesis before the branch name.
@@ -68,5 +68,5 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 
 # Git symbols - the crossed swords for a 'dirty' repo and the peace symbol for a
 # 'clean' one.
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[190]%} ⚔"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[190]%} ☮"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[184]%} ⚔"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[184]%} ☮"
