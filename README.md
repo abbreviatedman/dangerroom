@@ -5,7 +5,7 @@ X-Men themed.
 
 ---
 
-This is the vim indicator branch. It's currently fully functional, but needs to be documented.
+There is a branch with a vim mode indicator. It's currently fully functional, but needs to be documented before it can be merged in.
 
 ---
 
