@@ -2,7 +2,6 @@
 
 # An oh-my-zsh theme that's informative, minimal, and, above all, X-Men themed.
 
-
 #### What does the dangerroom theme _do_ for you?
 
 # The dangerroom theme lines up all your commands on the left side, thanks to
@@ -54,8 +53,8 @@
 # The left-hand prompt.
 PROMPT='${vim_mode} %{$reset_color%}'
 
-vim_ins_mode="%{$FG[190]%}⨂%{$reset_color%}"
-vim_cmd_mode="%{$FG[026]%}⨂%{$reset_color%}"
+vim_ins_mode="%{$FG[184]%}⨂%{$reset_color%}"
+vim_cmd_mode="%{$FG[027]%}⨂%{$reset_color%}"
 vim_mode=$vim_ins_mode
 
 function zle-keymap-select {
@@ -78,7 +77,7 @@ function TRAPINT() {
 }
 
 # The right-hand prompt.
-RPROMPT='%{$FG[026]%}[%2c]%{$reset_color%}%{$FG[190]%}$(git_prompt_info)%{$reset_color%}'
+RPROMPT='%{$FG[027]%}[%2c]%{$reset_color%}%{$FG[184]%}$(git_prompt_info)%{$reset_color%}'
 
 # The empty string prefix takes the place of the `git: ` and the opening
 # parenthesis before the branch name.
@@ -89,5 +88,6 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 
 # Git symbols - the crossed swords for a 'dirty' repo and the peace symbol for a
 # 'clean' one.
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[190]%} ⚔"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[190]%} ☮"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[184]%} ⚔"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[184]%} ☮"
+>>>>>>> master
