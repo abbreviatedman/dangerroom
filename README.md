@@ -70,7 +70,7 @@ Notes on this coming soon.
 
 ## Todos For Vim-Mode Documentation
 
-- [x] Add basic documentation of Vim Mode's existence.
+- [x] Add basic documentation of Vim mode indicator.
 - [x] Remove unnecessary code comments.
 - [ ] Make new demo gif showing Vim mode indicator.
 - [ ] Outline Vterm/Evil solution.
