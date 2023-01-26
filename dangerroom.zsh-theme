@@ -57,6 +57,31 @@ vim_ins_mode="%{$FG[184]%}⨂%{$reset_color%}"
 vim_cmd_mode="%{$FG[027]%}⨂%{$reset_color%}"
 vim_mode=$vim_ins_mode
 
+# Determines prompt modifier if and when a conda environment is active
+# derived from https://unix.stackexchange.com/a/680112
+precmd_conda_info() {
+  if [[ -n $CONDA_PREFIX ]]; then
+      if [[ $(basename $CONDA_PREFIX) == "anaconda3" ]] || [[ $(basename $CONDA_PREFIX) == "miniconda3" ]]; then
+        # Without this, it would display conda version
+        CONDA_ENV=""
+      else
+        # For all environments that aren't (base)
+        CONDA_ENV="%{$FG[184]%}conda:%{$FG[027]%}$(basename $CONDA_PREFIX) "
+      fi
+  # When no conda environment is active, don't show anything
+  else
+    CONDA_ENV=""
+  fi
+}
+
+# Run the previously defined function before each prompt
+precmd_functions+=( precmd_conda_info )
+
+# Allow substitutions and expansions in the prompt
+setopt prompt_subst
+
+# PROMPT='%F{cyan}$CONDA_ENV'
+
 function zle-keymap-select {
   vim_mode="${${KEYMAP/vicmd/${vim_cmd_mode}}/(main|viins)/${vim_ins_mode}}"
   zle reset-prompt
@@ -77,7 +102,7 @@ function TRAPINT() {
 }
 
 # The right-hand prompt.
-RPROMPT='%{$FG[027]%}[%2c]%{$reset_color%}%{$FG[184]%} $(git_prompt_info)%{$reset_color%}'
+RPROMPT='%{$reset_color%} %{$FG[027]%}$CONDA_ENV %{$FG[184]%}git:%{$FG[027]%}$(git_prompt_info) %{$FG[027]%}[%2c]'
 
 # The empty string prefix takes the place of the `git: ` and the opening
 # parenthesis before the branch name.
