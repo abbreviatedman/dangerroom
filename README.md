@@ -1,8 +1,8 @@
 # dangerroom
 
-Dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-Men themed.
+dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-Men themed. It's designed in particular for programmers learning the command line for the first time.
 
-The Danger Room in X-Men:
+The [Danger Room](https://en.wikipedia.org/wiki/Danger_Room) in X-Men:
 
 ![The Danger Room in an X-Men comic.](./xmen-danger-room.png "What do I have to do to get someone to say, \"the supposed death of Colin\", do you think? Be really, really hardcore, is my guess.")
 
