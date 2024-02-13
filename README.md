@@ -12,11 +12,20 @@ The dangerroom theme in your terminal:
 
 ## Feature Walkthrough
 
-- looks good in most light or dark themes
-- minimal left-side prompt for easy history parsing
-- working-directory-and-parent-directory
-- minimal git info
-- vim mode indicator
+### Minimal Left-Side Prompt For Easy History Parsing
+
+- same as having code be more vertical
+
+### Gives The User the vital info without overloading them
+
+- current directory is often insufficient
+- more tends to overwhelm students
+- full path is always gettable with `pwd`
+- Minimal Git Info, similar to the middle ground of working/parent directory
+
+### Looks Good In Most Color Schemes
+
+### Vim Mode Indicator
 
 ## Installation
 
