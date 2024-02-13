@@ -2,7 +2,7 @@
 
 The Danger Room in X-Men:
 
-![./xmen-danger-room.png](The Danger Room in an X-Men comic.)
+![The Danger Room in an X-Men comic.](./xmen-danger-room.png "What do I have to do to get someone to say, \"Colin's supposed death\", do you think? Be really, really hardcore, is my guess.")
 
 The dangerroom theme in your terminal:
 
