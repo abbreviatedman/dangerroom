@@ -1,5 +1,7 @@
 # dangerroom
 
+Dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-Men themed.
+
 The Danger Room in X-Men:
 
 ![The Danger Room in an X-Men comic.](./xmen-danger-room.png "What do I have to do to get someone to say, \"the supposed death of Colin\", do you think? Be really, really hardcore, is my guess.")
@@ -8,12 +10,10 @@ The dangerroom theme in your terminal:
 
 ![A pictorial demonstration of dangerroom usage.](./dangerroom-demo.png "Pretty cool, huh.")
 
-Dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-Men themed.
-
 ## Feature Walkthrough
 
 - looks good in most light or dark themes
-- minimal left prompt for easy history parsing
+- minimal left-side prompt for easy history parsing
 - working-directory-and-parent-directory
 - minimal git info
 - vim mode indicator
@@ -35,6 +35,8 @@ This theme only supports the Zsh shell. If you make a version that supports othe
 ZSH_THEME="dangerroom"
 ```
 
+(A similar line should already be in the file—you can change it to look like the above line, instead.)
+
 - To activate the theme, either open a new terminal window, or get it in your current terminal by running this command to read in your zsh configuration.
 
 ```sh
@@ -45,7 +47,7 @@ source ~/.zshrc
 
 ### Installing Without Oh My Zsh
 
-If you don't have or want Oh My Zsh, then you probably already know how to install themes. Feel free to submit a PR with other sets of directions, though.
+If you don't have or want Oh My Zsh, then you probably already know how to install themes? Feel free to submit a PR with other sets of directions, though.
 
 ## Additional Setup Recommendations
 
