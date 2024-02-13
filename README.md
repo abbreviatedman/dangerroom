@@ -43,7 +43,7 @@ ZSH_THEME="dangerroom"
 source ~/.zshrc
 ```
 
-- Let the Danger Room sharpen your command line skills.
+- Get to work in the Danger Room, practicing and sharpening your command line skills.
 
 ### Installing Without Oh My Zsh
 
@@ -53,7 +53,7 @@ If you don't have or want Oh My Zsh, then you probably already know how to insta
 
 ### Fonts and Terminals
 
-Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques if you want to hone your powers and survive in a superpowered world. And if you want good-looking emojis.
+Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques (terminals and fonts) if you want to hone your powers and survive in a superpowered world (have good-looking emojis).
 
 ### Better Vim Keybindings Experience
 
