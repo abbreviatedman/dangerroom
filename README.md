@@ -23,6 +23,14 @@ Dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-
 
 - The dangerroom theme does _not_ have the time, the full path to your working directory, or extra git information. You rarely need that stuff, so they shouldn't be crowding up your terminal. Focus and determination, young mutant. _Focus and determination_.
 
+## Feature Walkthrough
+
+- looks good in most light or dark themes
+- minimal left prompt for easy history parsing
+- working-directory-and-parent-directory
+- minimal git info
+- vim mode indicator
+
 ## Installation
 
 ### Prerequisites
