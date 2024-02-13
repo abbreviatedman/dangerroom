@@ -10,19 +10,6 @@ The dangerroom theme in your terminal:
 
 Dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-Men themed.
 
-## About
-
-### What does the dangerroom theme _do_ for you?
-
-- The dangerroom theme lines up all your commands on the left side, thanks to a simple and static X-Men symbol prompt. No more scanning left to right as you parse previous commands—just look straight up the left side of your terminal.
-- The dangerroom theme shows the working directory and its parent directory.
-- The dangerroom theme shows the current git branch and whether you have files changed in your repo that you haven't committed. The peace symbol means you're all caught up. The crossed swords mean that the X-Men are at _war_. (Or, more technically, the dangerroom theme shows whether your repo's working tree is clean or dirty.)
-- When you're using vim keybindings on the command line, the dangerroom theme shows you the current vim mode, if applicable. The yellow X-Men symbol is Insert, the blue is Normal.
-
-### What doesn't it do for you?
-
-- The dangerroom theme does _not_ have the time, the full path to your working directory, or extra git information. You rarely need that stuff, so they shouldn't be crowding up your terminal. Focus and determination, young mutant. _Focus and determination_.
-
 ## Feature Walkthrough
 
 - looks good in most light or dark themes
@@ -35,7 +22,7 @@ Dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-
 
 ### Prerequisites
 
-This theme only supports the Zsh shell. If you make one that supports other shells, please let me know, so I can link it here!
+This theme only supports the Zsh shell. If you make a version that supports other shells, please let me know, so I can link it here!
 
 ### Installing Using Oh My Zsh (Recommended):
 
@@ -56,38 +43,21 @@ source ~/.zshrc
 
 - Let the Danger Room sharpen your command line skills.
 
-Excelsior!
-
 ### Installing Without Oh My Zsh
 
-Feel free to submit a PR with other sets of directions. Probably you know how to install themes for your shell setup, though!
+If you don't have or want Oh My Zsh, then you probably already know how to install themes. Feel free to submit a PR with other sets of directions, though.
 
 ## Additional Setup Recommendations
 
 ### Fonts and Terminals
 
-Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques if you want to hone your powers and survive in a superpowered world. And if you want emojis.
+Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques if you want to hone your powers and survive in a superpowered world. And if you want good-looking emojis.
 
 ### Better Vim Keybindings Experience
 
-Add [this fantastic zsh plugin](https://github.com/softmoth/zsh-vim-mode) if you like using Vim bindings on the command line. It's a little bit better than the built-in plugin, and minor improvements are certainly worth spending a bunch of time configuring!
+I recommend adding [this fantastic zsh plugin](https://github.com/softmoth/zsh-vim-mode) if you like using Vim bindings on the command line. It's a little bit better than the built-in plugin, and minor improvements are _always_ worth spending a bunch of time configuring, am I right? (I do hope I'm right.)
 
-### Better Experience When Combining Emacs' Evil And Vterm Modes
-
-Notes on this coming soon!
-
-## Miscellaneous Topics
-
-### Prior Art
+## Prior Art
 
 - I was helped along greatly by the very helpful comments in the excellent wedisagree theme, part of oh-my-zsh's built-in themes. https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/wedisagree.zsh-theme
 - This blog post by Paweł Gościcki assisted with some of the finer points of Vim prompt colorization, along with the comments it inspired: http://pawelgoscicki.com/archives/2012/09/vi-mode-indicator-in-zsh-prompt/
-
-### Documentation Todos
-
-- [x] Add basic documentation of Vim mode indicator.
-- [x] Remove unnecessary code comments.
-- [ ] Make new demo gif showing Vim mode indicator.
-
-[oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
-[zsh]: https://zsh.sourceforge.io/
