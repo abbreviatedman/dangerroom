@@ -67,9 +67,9 @@ I recommend adding [this fantastic zsh plugin](https://github.com/softmoth/zsh-v
 - I was helped along greatly by the very helpful comments in the excellent wedisagree theme, one of oh-my-zsh's built-in themes. https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/wedisagree.zsh-theme
 - This blog post by Paweł Gościcki assisted with some of the finer points of Vim prompt colorization, along with the comments it inspired: http://pawelgoscicki.com/archives/2012/09/vi-mode-indicator-in-zsh-prompt/
 
-[oh-my-zsh]: https://ohmyz.sh/
-[zsh]: https://zsh.sourceforge.io/
-
 ## Contributing
 
 This project is licensed under the GPL v3. If you'd like to contribute, with ideas or code, please open an issue!
+
+[oh-my-zsh]: https://ohmyz.sh/
+[zsh]: https://zsh.sourceforge.io/
