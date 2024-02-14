@@ -1,38 +1,48 @@
 # dangerroom
 
-The Danger Room in X-Men:
+dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-Men themed. It's designed in particular for programmers learning the command line for the first time.
 
-![The Danger Room in an X-Men comic.](./xmen-danger-room.png "What do I have to do to get someone to say, \"the supposed death of Colin\", do you think? Be really, really hardcore, is my guess.")
+Here is [the Wikipedia page for the Danger Room in the X-Men universe](https://en.wikipedia.org/wiki/Danger_Room). Like the original Danger Room, the dangerroom theme helps you train your skills.
 
-The dangerroom theme in your terminal:
+## Feature Walkthrough
 
-![A pictorial demonstration of dangerroom usage.](./dangerroom-demo.png "Pretty cool, huh.")
+### In GIF Format
 
-Dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-Men themed.
+### In Text
 
-## About
+#### Minimal Left-Side Prompt For Easy History Parsing
 
-### What does the dangerroom theme _do_ for you?
+Someone used to the command line can easily skim over the unimportant information to see the input and output
 
-- The dangerroom theme lines up all your commands on the left side, thanks to a simple and static X-Men symbol prompt. No more scanning left to right as you parse previous commands—just look straight up the left side of your terminal.
-- The dangerroom theme shows the working directory and its parent directory.
-- The dangerroom theme shows the current git branch and whether you have files changed in your repo that you haven't committed. The peace symbol means you're all caught up. The crossed swords mean that the X-Men are at _war_. (Or, more technically, the dangerroom theme shows whether your repo's working tree is clean or dirty.)
-- When you're using vim keybindings on the command line, the dangerroom theme shows you the current vim mode, if applicable. The yellow X-Men symbol is Insert, the blue is Normal.
+#### Gives The User Vital Info Without Overloading Them
 
-### What doesn't it do for you?
+- current directory is often insufficient
+- more tends to overwhelm students
+- full path is always gettable with `pwd`
+- Minimal Git Info, similar to the middle ground of working/parent directory
 
-- The dangerroom theme does _not_ have the time, the full path to your working directory, or extra git information. You rarely need that stuff, so they shouldn't be crowding up your terminal. Focus and determination, young mutant. _Focus and determination_.
+#### Indicates Current Vim Mode
+
+## Current Issues
+
+### Yellow Doesn't Look Great In Light Color Schemes
+
+### Only Git Is Supported
+
+It would be nice to support other VCSs. For those who are using another VCS, it would take the place of the Git info, so would still adhere to our minimalist philosophy and feature set.
+
+I don't currently have sufficient experience with other VCSs to judge what info users would want under those systems, but would be open to PRs from those who want to add them.
 
 ## Installation
 
 ### Prerequisites
 
-This theme only supports the Zsh shell. If you make one that supports other shells, please let me know, so I can link it here!
+This theme only supports the Zsh shell. If you make a version that supports other shells, please let me know, so I can link it here!
 
 ### Installing Using Oh My Zsh (Recommended):
 
 - Install [oh-my-zsh][oh-my-zsh], if you don't have it already. Their site has excellent directions for how to do so, and you'll never look back.
-- Clone or download this repository.
+- Then clone or download this repository.
 - Take the `dangerroom.zsh-theme` file from this repo and put it in your `~/.oh-my-zsh/themes` directory.
 - Edit the `.zshrc` file in your home directory to set the `ZSH_THEME` variable to the value `"dangerroom"`, like so:
 
@@ -40,46 +50,38 @@ This theme only supports the Zsh shell. If you make one that supports other shel
 ZSH_THEME="dangerroom"
 ```
 
-- To activate the theme, either open a new terminal window, or get it in your current terminal by running this command to read in your zsh configuration.
+(A similar line should already be in the file—you can change it to look like the above line, instead.)
+
+- To activate the theme: either open a new terminal window or tab, which will reload your settings and activate the them, or get the theme in your current terminal by running this command, which reads in your zsh configuration:
 
 ```sh
 source ~/.zshrc
 ```
 
-- Let the Danger Room sharpen your command line skills.
-
-Excelsior!
+- Get to work in the Danger Room, practicing and sharpening your command line skills.
 
 ### Installing Without Oh My Zsh
 
-Feel free to submit a PR with other sets of directions. Probably you know how to install themes for your shell setup, though!
+If you don't have or want Oh My Zsh, then you probably already know how to install themes? Feel free to submit a PR with other sets of directions, though.
 
 ## Additional Setup Recommendations
 
 ### Fonts and Terminals
 
-Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques if you want to hone your powers and survive in a superpowered world. And if you want emojis.
+Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques (terminals and fonts) if you want to hone your powers and survive in a superpowered world (have good-looking emojis).
 
 ### Better Vim Keybindings Experience
 
-Add [this fantastic zsh plugin](https://github.com/softmoth/zsh-vim-mode) if you like using Vim bindings on the command line. It's a little bit better than the built-in plugin, and minor improvements are certainly worth spending a bunch of time configuring!
+I recommend adding [this fantastic zsh plugin](https://github.com/softmoth/zsh-vim-mode) if you like using Vim bindings on the command line. It's a little bit better than the built-in plugin, and minor improvements are _always_ worth spending a bunch of time configuring, am I right? (I do hope I'm right.)
 
-### Better Experience When Combining Emacs' Evil And Vterm Modes
+## Prior Art
 
-Notes on this coming soon!
-
-## Miscellaneous Topics
-
-### Prior Art
-
-- I was helped along greatly by the very helpful comments in the excellent wedisagree theme, part of oh-my-zsh's built-in themes. https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/wedisagree.zsh-theme
+- I was helped along greatly by the very helpful comments in the excellent wedisagree theme, one of oh-my-zsh's built-in themes. https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/wedisagree.zsh-theme
 - This blog post by Paweł Gościcki assisted with some of the finer points of Vim prompt colorization, along with the comments it inspired: http://pawelgoscicki.com/archives/2012/09/vi-mode-indicator-in-zsh-prompt/
 
-### Documentation Todos
+## Contributing
 
-- [x] Add basic documentation of Vim mode indicator.
-- [x] Remove unnecessary code comments.
-- [ ] Make new demo gif showing Vim mode indicator.
+This project is licensed under the GPL v3. If you'd like to contribute, with ideas or code, please open an issue!
 
-[oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
+[oh-my-zsh]: https://ohmyz.sh/
 [zsh]: https://zsh.sourceforge.io/
