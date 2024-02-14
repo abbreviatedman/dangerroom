@@ -66,7 +66,7 @@ If you don't have or want Oh My Zsh, then you probably already know how to insta
 
 ### Fonts and Terminals
 
-Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques (terminals and fonts) if you want to hone your powers and survive in a superpowered world (have good-looking emojis).
+Please note that _some_ terminal/font combinations display this theme's symbols either cut off, or at half their normal size, or with simpler emojis than in the examples shown above. Consider experimenting with combining different fighting techniques (terminals and fonts) if you want to hone your powers and survive in a superpowered world (have good-looking emojis).
 
 ### Better Vim Keybindings Experience
 
