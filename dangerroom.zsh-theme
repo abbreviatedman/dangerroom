@@ -41,10 +41,13 @@ ZSH_THEME_GIT_PROMPT_PREFIX="%F{${YELLOW}}(%{$reset_color%}"
 # the next line).
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 
-# Git symbols—the crossed swords for a "dirty" working tree and the peace symbol
-# for a "clean" one.
-ZSH_THEME_GIT_PROMPT_DIRTY="%F{${YELLOW}})%F{${BLUE}} ⚔"
-ZSH_THEME_GIT_PROMPT_CLEAN="%F{${YELLOW}})%F{${BLUE}} ☮"
+# Close the yellow parentheses and switch to blue for the emoji.
+GIT_EMOJI_PREFIX="%F{${YELLOW}})%F{${BLUE}}"
+
+# Git indicators—the crossed swords for a "dirty" working tree and the peace
+# symbol for a "clean" one.
+ZSH_THEME_GIT_PROMPT_DIRTY="${GIT_EMOJI_PREFIX} ⚔"
+ZSH_THEME_GIT_PROMPT_CLEAN="${GIT_EMOJI_PREFIX} ☮"
 
 ## Lots of Vim Mode Setup
 
