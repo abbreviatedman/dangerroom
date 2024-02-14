@@ -14,9 +14,9 @@ The dangerroom theme in your terminal:
 
 ### Minimal Left-Side Prompt For Easy History Parsing
 
-- same as having code be more vertical
+Someone used to the command line can easily skim over the unimportant information to see the input and output
 
-### Gives The User the vital info without overloading them
+### Gives The User vital info without overloading them
 
 - current directory is often insufficient
 - more tends to overwhelm students
