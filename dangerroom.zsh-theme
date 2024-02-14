@@ -18,10 +18,9 @@
 YELLOW='#FFCC00'
 BLUE='#0703D0'
 
-# The prompts for different vim modes, with differing colors to indicate the
-# mode.
-vim_ins_mode="%F{${BLUE}}⨂"
-vim_cmd_mode="%F{${YELLOW}}⨂"
+# The prompts for the 2 main vim modes, differentiated by color.
+VIM_INS_MODE="%F{${BLUE}}⨂"
+VIM_CMD_MODE="%F{${YELLOW}}⨂"
 
 ## And now, the prompts.
 
@@ -29,16 +28,16 @@ vim_cmd_mode="%F{${YELLOW}}⨂"
 # (Calculated at great length below.)
 PROMPT='${vim_mode} %{$reset_color%}'
 
-# The right-hand prompt, with the first color used for the current and parent
-# directories and the second for the git branch.
+# The right-hand prompt, with yellow for the brackets and then always resetting
+# to the default text color. `%2c` is the code for "parent and working
+# directory".
 RPROMPT='%F{${YELLOW}}[%{$reset_color%}%2c%F{${YELLOW}}]%{$reset_color%} $(git_prompt_info)'
 
-# This empty string prefix takes the place of default "git: " string and the
-# opening parenthesis before the branch name. I think it looks better without.
+# This prefix takes the place of default "git: " string. All we do is make a
+# yellow opening parenthesis, which we'll close after the branch info.
 ZSH_THEME_GIT_PROMPT_PREFIX="%F{${YELLOW}}(%{$reset_color%}"
 
-# The suffix takes the place of the closing parenthesis (and resets colors for
-# the next line).
+# This suffix resets colors for # the next line.
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 
 # Close the yellow parentheses and switch to blue for the emoji.
@@ -52,18 +51,18 @@ ZSH_THEME_GIT_PROMPT_CLEAN="${GIT_EMOJI_PREFIX} ☮"
 ## Lots of Vim Mode Setup
 
 # Start in insert mode.
-vim_mode=$vim_ins_mode
+vim_mode=$VIM_INS_MODE
 
 # A set of functions to update the current vim mode keymap.
 function zle-keymap-select {
-  vim_mode="${${KEYMAP/vicmd/${vim_cmd_mode}}/(main|viins)/${vim_ins_mode}}"
+  vim_mode="${${KEYMAP/vicmd/${VIM_CMD_MODE}}/(main|viins)/${VIM_INS_MODE}}"
   zle reset-prompt
 }
 
 zle -N zle-keymap-select
 
 function zle-line-finish {
-  vim_mode=$vim_ins_mode
+  vim_mode=$VIM_INS_MODE
 }
 
 zle -N zle-line-finish
@@ -76,6 +75,6 @@ zle -N zle-line-finish
 # (http://pawelgoscicki.com/archives/2012/09/vi-mode-indicator-in-zsh-prompt/)
 # for this solution.
 function TRAPINT() {
-  vim_mode=$vim_ins_mode
+  vim_mode=$VIM_INS_MODE
   return $(( 128 + $1 ))
 }
