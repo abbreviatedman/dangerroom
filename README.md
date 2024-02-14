@@ -25,8 +25,6 @@ Someone used to the command line can easily skim over the unimportant informatio
 
 ## Current Issues
 
-### Yellow Doesn't Look Great In Light Color Schemes
-
 ### Only Git Is Supported
 
 It would be nice to support other VCSs. For those who are using another VCS, it would take the place of the Git info, so would still adhere to our minimalist philosophy and feature set.
