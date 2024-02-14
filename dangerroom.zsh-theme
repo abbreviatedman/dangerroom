@@ -15,8 +15,8 @@
 ## First, some variables.
 
 # Our main 2 colors.
-YELLOW='#FFCC00'
-BLUE='#0703D0'
+YELLOW='#FFB81C'
+BLUE='#0D52BD'
 
 # The prompts for the 2 main vim modes, differentiated by color.
 VIM_INS_MODE="%F{${BLUE}}⨂"
