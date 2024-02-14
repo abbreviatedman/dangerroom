@@ -39,7 +39,7 @@ This theme only supports the Zsh shell. If you make a version that supports othe
 
 ### Installing Using Oh My Zsh (Recommended):
 
-- Install [oh-my-zsh][oh-my-zsh], if you don't have it already. Their site has excellent directions for how to do so, and you'll never look back.
+- Install [oh-my-zsh][oh-my-zsh], if you don't have it already. Besides countless other useful features, it makes managing themes a breeze.
 - Then clone or download this repository.
 - Take the `dangerroom.zsh-theme` file from this repo and put it in your `~/.oh-my-zsh/themes` directory.
 - Edit the `.zshrc` file in your home directory to set the `ZSH_THEME` variable to the value `"dangerroom"`, like so:
@@ -50,7 +50,7 @@ ZSH_THEME="dangerroom"
 
 (A similar line should already be in the file—you can change it to look like the above line, instead.)
 
-- To activate the theme: either open a new terminal window or tab, which will reload your settings and activate the them, or get the theme in your current terminal by running this command, which reads in your zsh configuration:
+- To activate the theme: either open a new terminal window or tab, which will reload your settings and activate the theme, or activate the theme in your current terminal by running this command, which reads in your zsh configuration:
 
 ```sh
 source ~/.zshrc
