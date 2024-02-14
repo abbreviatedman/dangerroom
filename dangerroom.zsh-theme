@@ -18,7 +18,7 @@ PROMPT='${vim_mode} %{$reset_color%}'
 
 # The right-hand prompt, with the first color used for the current and parent
 # directories and the second for the git branch.
-RPROMPT='%{$FG[027]%}[%2c]%{$reset_color%}%{$FG[184]%} $(git_prompt_info)%{$reset_color%}'
+RPROMPT='%{$FG[027]%}[%2c]%{$reset_color%}%{$FG[214]%} $(git_prompt_info)%{$reset_color%}'
 
 # This empty string prefix takes the place of default "git: " string and the
 # opening parenthesis before the branch name. I think it looks better without.
@@ -30,14 +30,14 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 
 # Git symbols—the crossed swords for a "dirty" working tree and the peace symbol
 # for a "clean" one.
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[184]%} ⚔"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[184]%} ☮"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[214]%} ⚔"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[214]%} ☮"
 
-## Lots of Vim Mode Setup
+# Lots of Vim Mode Setup
 
 # The prompts for different vim modes, with differing colors to indicate the
 # mode.
-vim_ins_mode="%{$FG[184]%}⨂%{$reset_color%}"
+vim_ins_mode="%{$FG[214]%}⨂%{$reset_color%}"
 vim_cmd_mode="%{$FG[027]%}⨂%{$reset_color%}"
 
 # Start in insert mode.
