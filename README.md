@@ -14,14 +14,14 @@ Here is [the Wikipedia page for the Danger Room in the X-Men universe](https://e
 
 Someone used to the command line can easily skim over the unimportant information to see the input and output
 
-#### Gives The User vital info without overloading them
+#### Gives The User Vital Info Without Overloading Them
 
 - current directory is often insufficient
 - more tends to overwhelm students
 - full path is always gettable with `pwd`
 - Minimal Git Info, similar to the middle ground of working/parent directory
 
-#### Vim Mode Indicator
+#### Indicates Current Vim Mode
 
 ## Current Issues
 
@@ -29,7 +29,7 @@ Someone used to the command line can easily skim over the unimportant informatio
 
 ### Only Git Is Supported
 
-It would be nice to support other VCSs, but most newcomers are going to be using Git anyway. However, for those who are using another VCS, it would take the place of the Git info, so would still adhere to our philosophy and feature set.
+It would be nice to support other VCSs. For those who are using another VCS, it would take the place of the Git info, so would still adhere to our minimalist philosophy and feature set.
 
 I don't currently have sufficient experience with other VCSs to judge what info users would want under those systems, but would be open to PRs from those who want to add them.
 
