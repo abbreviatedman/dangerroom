@@ -69,3 +69,7 @@ I recommend adding [this fantastic zsh plugin](https://github.com/softmoth/zsh-v
 
 [oh-my-zsh]: https://ohmyz.sh/
 [zsh]: https://zsh.sourceforge.io/
+
+## Contributing
+
+This project is licensed under the GPL v3. If you'd like to contribute, with ideas or code, please open an issue!
