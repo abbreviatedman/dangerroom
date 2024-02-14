@@ -6,20 +6,32 @@ Here is [the Wikipedia page for the Danger Room in the X-Men universe](https://e
 
 ## Feature Walkthrough
 
-### Minimal Left-Side Prompt For Easy History Parsing
+### In GIF Format
+
+### In Text
+
+#### Minimal Left-Side Prompt For Easy History Parsing
 
 Someone used to the command line can easily skim over the unimportant information to see the input and output
 
-### Gives The User vital info without overloading them
+#### Gives The User vital info without overloading them
 
 - current directory is often insufficient
 - more tends to overwhelm students
 - full path is always gettable with `pwd`
 - Minimal Git Info, similar to the middle ground of working/parent directory
 
-### Looks Good In Most Color Schemes
+#### Vim Mode Indicator
 
-### Vim Mode Indicator
+## Current Issues
+
+### Yellow Doesn't Look Great In Light Color Schemes
+
+### Only Git Is Supported
+
+It would be nice to support other VCSs, but most newcomers are going to be using Git anyway. However, for those who are using another VCS, it would take the place of the Git info, so would still adhere to our philosophy and feature set.
+
+I don't currently have sufficient experience with other VCSs to judge what info users would want under those systems, but would be open to PRs from those who want to add them.
 
 ## Installation
 
