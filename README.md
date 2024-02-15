@@ -27,7 +27,7 @@ Someone used to the command line can easily skim over the unimportant informatio
 
 ### Only Git Is Supported
 
-It would be nice to support other VCSs. For those who are using another VCS, it would take the place of the Git info, so would still adhere to our minimalist philosophy and feature set.
+It would be nice to support other Version Control Systems, like SVN and Mercurial. For those who are using another VCS, it would take the place of the Git info, so would still adhere to our minimalist philosophy and feature set.
 
 I don't currently have sufficient experience with other VCSs to judge what info users would want under those systems, but would be open to PRs from those who want to add them.
 
