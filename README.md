@@ -19,7 +19,11 @@ Here is [the Wikipedia page for the Danger Room in the X-Men universe](https://e
 
 #### Minimal Left-Side Prompt For Easy History Parsing
 
-Someone used to the command line can easily skim over the unimportant information to see the input and output
+Someone used to the command line can easily skim over the unimportant information to quickly eye the input/output info in a terminal. But it's easier, for new command-line users and experts alike, to have the not-immediately-relevant info kept separate from the always-relevant back-and-forth conversation between user and system that is the command line's main job.
+
+Furthermore, vertical information is far easier for the human mind to parse quickly than having to scan both horizontally and vertically.
+
+This is why dangerroom's left-hand prompt is simply a symbol and a space and stays affixed to the left-hand side no matter what else changes (e.g., the current working directory's character length). it is also why there is no other prompt info interspersed on the left side, as with many themes.
 
 #### Gives The User Vital Info Without Overloading Them
 
