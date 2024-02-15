@@ -25,9 +25,7 @@ Furthermore, vertical information is far easier for the human mind to parse quic
 
 This is why dangerroom's left-hand prompt is simply a symbol and a space and stays affixed to the left-hand side no matter what else changes (e.g., the current working directory's character length). It is also why there is no other prompt info interspersed with the user's input/output on the left side, as there is with many themes.
 
-![Demonstration of easy-to-parse input/output.](./assets/feature-left-side-prompt-1.png "The X-Men believe in left-side prompt minimalism. Or they would, if they were computer hackers.")
-
-![Demonstration that directory and version control changes don't affect the ease of parsing.](./assets/feature-left-side-prompt-2.png "Marvel would love this prompt as much as the X-Men would., and neither party would ever consider suing me I hope.")
+![Demonstration of easy-to-parse input/output.](./assets/feature-walkthrough-screenshot-1.png "The X-Men believe in left-side prompt minimalism. Or they would, if they were computer hackers.")
 
 #### Vital Info Without Overloading The User
 
@@ -38,11 +36,15 @@ Extra info is always easily obtainable, such as the current time or the full pat
 - Rather than just displaying the current directory, which is often insufficient given how many similarly named directories a user often has, or the full path, which is easily obtained, this theme provides the current directory and the parent directory.
 - Similarly, for Git repos, this theme prints out the current branch and the working tree status ("clean" or "dirty"), obviating the need for most `git status` checks, without drowning the user in the many aspects of a deeper status report on their repository.
 
+![Demonstration that directory and version control changes don't affect the ease of parsing.](./assets/feature-walkthrough-screenshot-2.png "Marvel would love this prompt as much as the X-Men would., and neither party would ever consider suing me I hope.")
+
 "Make things as simple as possible, but no simpler." - Albert Einstein
 
 #### Current Vim Mode Indicator
 
 For those who use Vim keybindings on the command line, the left-hand symbol changes color when in Normal Mode. This is useful visual feedback that takes up no further space and doesn't complicate the situation for those who use the default keybindings of their shell and terminal emulator.
+
+![Demonstration of Vim Indicator.](./assets/feature-walkthrough-screenshot-3.png "Maybe they'd even welcome the tribute! Yessir, I bet they'd even make me an honorary X-Man! \"The Hacker\"? \"Captain Coder\"? \"Mister Middle-Aged\"?")
 
 ## Installation
 
