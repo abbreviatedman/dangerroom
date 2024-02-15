@@ -70,7 +70,7 @@ Please note that _some_ terminal/font combinations display this theme's symbols 
 
 ### Better Vim Keybindings Experience
 
-I recommend adding [this fantastic zsh plugin](https://github.com/softmoth/zsh-vim-mode) if you like using Vim bindings on the command line. It's a little bit better than the built-in plugin, and minor improvements are _always_ worth spending a bunch of time configuring, am I right? (I do hope I'm right.)
+If you like using Vim bindings on the command line, I recommend adding [this fantastic zsh plugin](https://github.com/softmoth/zsh-vim-mode). It has many useful Vim keybinding enhancements, such as vim-surround keybindings and a customizable shortcut for switching to Normal Mode.
 
 ## Prior Art
 
