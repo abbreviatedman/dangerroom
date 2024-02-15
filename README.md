@@ -8,6 +8,13 @@ Here is [the Wikipedia page for the Danger Room in the X-Men universe](https://e
 
 ### In GIF Format
 
+- Show left and right prompts by cd-ing around.
+- # It's easy to skim input and output when they line up, so no information is on the left side.
+- # Right side tracks working and parent directories only.
+- # The theme eschews extraneous information easily gettable elsewhere, like the full path, or the current time or user.
+- cd into repo to show minimal git info
+- edit command to show Vim indicator
+
 ### In Text
 
 #### Minimal Left-Side Prompt For Easy History Parsing
