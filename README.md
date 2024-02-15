@@ -6,7 +6,7 @@ Here is [the Wikipedia page for the Danger Room in the X-Men universe](https://e
 
 ## Feature Walkthrough
 
-### In GIF Format
+### Walking Through It All Visually
 
 - Show left and right prompts by cd-ing around.
 - # It's easy to skim input and output when they line up, so no information is on the left side.
@@ -15,7 +15,7 @@ Here is [the Wikipedia page for the Danger Room in the X-Men universe](https://e
 - cd into repo to show minimal git info
 - edit command to show Vim indicator
 
-### In Text
+### A Walkthrough With Text And Screenshots
 
 #### Minimal Left-Side Prompt For Easy History Parsing
 
@@ -23,7 +23,7 @@ Someone used to the command line can easily skim over the unimportant informatio
 
 Furthermore, vertical information is far easier for the human mind to parse quickly than having to scan both horizontally and vertically.
 
-This is why dangerroom's left-hand prompt is simply a symbol and a space and stays affixed to the left-hand side no matter what else changes (e.g., the current working directory's character length). it is also why there is no other prompt info interspersed on the left side, as with many themes.
+This is why dangerroom's left-hand prompt is simply a symbol and a space and stays affixed to the left-hand side no matter what else changes (e.g., the current working directory's character length). It is also why there is no other prompt info interspersed with the user's input/output on the left side, as there is with many themes.
 
 #### Gives The User Vital Info Without Overloading Them
 
