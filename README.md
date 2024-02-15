@@ -25,14 +25,22 @@ Furthermore, vertical information is far easier for the human mind to parse quic
 
 This is why dangerroom's left-hand prompt is simply a symbol and a space and stays affixed to the left-hand side no matter what else changes (e.g., the current working directory's character length). It is also why there is no other prompt info interspersed with the user's input/output on the left side, as there is with many themes.
 
-#### Gives The User Vital Info Without Overloading Them
+![Demonstration of left-side prompt minimalism.](./assets/feature-left-side-prompt-1.png "The X-Men believe in left-side prompt minimalism. Or they would, if they were computer hackers.")
 
-- current directory is often insufficient
-- more tends to overwhelm students
-- full path is always gettable with `pwd`
-- Minimal Git Info, similar to the middle ground of working/parent directory
+#### Vital Info Without Overloading The User
 
-#### Indicates Current Vim Mode
+When the user _does_ want more information than the input/output from their commands, they can look to the right, where they can see have directory and version control information.
+
+Extra info is always easily obtainable, such as the current time or the full path to the working directory. Yet the reverse isn't quite true—extra information provides noise that makes the relevant information harder to find, no matter how used to skimming it the user becomes. At the same time, a truly minimal theme often fails to provide enough information, making a command-line user have to ask for further information often. This theme strikes a balance between the bare minimum some themes provide and the overwhelming data/noise that many others show.
+
+- Rather than just displaying the current directory, which is often insufficient given how many similarly named directories a user often has, or the full path, which is easily obtained, this theme provides the current directory and the parent directory.
+- Similarly, for Git repos, this theme prints out the current branch and the working tree status ("clean" or "dirty"), obviating the need for most `git status` checks, without drowning the user in the many aspects of a deeper status report on their repository.
+
+"Make things as simple as possible, but no simpler." - Albert Einstein
+
+#### Current Vim Mode Indicator
+
+For those who use Vim keybindings on the command line, the left-hand symbol changes color when in Normal Mode. This is useful visual feedback that takes up no further space and doesn't complicate the situation for those who use the default keybindings of their shell and terminal emulator.
 
 ## Installation
 
