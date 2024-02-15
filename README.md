@@ -37,7 +37,7 @@ For those who use Vim keybindings on the command line, the left-hand symbol chan
 
 ### Prerequisites
 
-- [ZSH](https://en.wikipedia.org/wiki/Z_shell) (the Z Shell).
+- [ZSH](https://en.wikipedia.org/wiki/Z_shell) (the Z Shell), the default shell on modern macOS systems.
 - [Oh My Zsh][oh-my-zsh]. Besides countless other useful features, OMZ makes managing themes a breeze—few manage ZSH themes without it, in fact.
 
 ### How To Install
@@ -73,7 +73,7 @@ The most likely user not currently supported by this theme is one who has ZSH (t
 
 It would be nice to support other Version Control Systems, like SVN and Mercurial. For those who are using another VCS, it would take the place of the Git info, so would still adhere to our minimalist philosophy and feature set.
 
-I don't currently have sufficient experience with other VCSs to judge what info users would want under those systems, but contributions are welcome.
+I don't currently have sufficient experience with other VCSs to judge what info users would want under those systems, but contributions from those with more experience with those tools would be quite welcome.
 
 ### Requires Zsh
 
