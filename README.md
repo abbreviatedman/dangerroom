@@ -25,7 +25,9 @@ Furthermore, vertical information is far easier for the human mind to parse quic
 
 This is why dangerroom's left-hand prompt is simply a symbol and a space and stays affixed to the left-hand side no matter what else changes (e.g., the current working directory's character length). It is also why there is no other prompt info interspersed with the user's input/output on the left side, as there is with many themes.
 
-![Demonstration of left-side prompt minimalism.](./assets/feature-left-side-prompt-1.png "The X-Men believe in left-side prompt minimalism. Or they would, if they were computer hackers.")
+![Demonstration of easy-to-parse input/output.](./assets/feature-left-side-prompt-1.png "The X-Men believe in left-side prompt minimalism. Or they would, if they were computer hackers.")
+
+![Demonstration that directory and version control changes don't affect the ease of parsing.](./assets/feature-left-side-prompt-2.png "Marvel would love this prompt as much as the X-Men would., and neither party would ever consider suing me I hope.")
 
 #### Vital Info Without Overloading The User
 
