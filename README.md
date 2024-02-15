@@ -1,6 +1,6 @@
 # dangerroom
 
-dangerroom is a [zsh][zsh] theme that's informative, minimal, and, above all, X-Men themed. It's designed in particular for programmers learning the command line for the first time.
+dangerroom is an [oh-my-zsh][oh-my-zsh] theme that's informative, minimal, and, above all, X-Men themed. It's designed in particular for programmers learning the command line for the first time.
 
 Here is [the Wikipedia page for the Danger Room in the X-Men universe](https://en.wikipedia.org/wiki/Danger_Room). Like the original Danger Room, the dangerroom theme helps you train and improve your skills.
 
@@ -30,24 +30,17 @@ Someone used to the command line can easily skim over the unimportant informatio
 
 #### Indicates Current Vim Mode
 
-## Current Issues
-
-### Only Git Is Supported
-
-It would be nice to support other Version Control Systems, like SVN and Mercurial. For those who are using another VCS, it would take the place of the Git info, so would still adhere to our minimalist philosophy and feature set.
-
-I don't currently have sufficient experience with other VCSs to judge what info users would want under those systems, but would be open to PRs from those who want to add them.
-
 ## Installation
 
 ### Prerequisites
 
-This theme only supports the Zsh shell. If you make a version that supports other shells, please let me know, so I can link it here!
+- [ZSH](https://en.wikipedia.org/wiki/Z_shell) (the Z Shell).
+- [Oh My Zsh][oh-my-zsh]. Besides countless other useful features, OMZ makes managing themes a breeze—few manage ZSH themes without it, in fact.
 
-### Installing Using Oh My Zsh (Recommended):
+### How To Install
 
-- Install [oh-my-zsh][oh-my-zsh], if you don't have it already. Besides countless other useful features, it makes managing themes a breeze—few manage ZSH themes without it, in fact.
-- Then clone or download this repository.
+- Be sure you have the prerequisites above.
+- Clone or download this repository.
 - Take the `dangerroom.zsh-theme` file from this repo and put it in your `~/.oh-my-zsh/themes` directory.
 - Edit the `.zshrc` file that's in your home directory, setting the `ZSH_THEME` variable to the value `"dangerroom"`, like so:
 
@@ -65,9 +58,23 @@ source ~/.zshrc
 
 - Get to work in the Danger Room, practicing and sharpening your command line skills.
 
-### Installing Without Oh My Zsh
+## Current Issues
 
-If you don't have or want Oh My Zsh, then you probably already know how to install themes? Feel free to submit a PR with other sets of directions, though.
+These are fixable issues—please respond to the Issues on the GitHub repo if you'd like to discuss working on them.
+
+### Requires OMZ
+
+The most likely user not currently supported by this theme is one who has ZSH (the default on Mac) but has not installed Oh My Zsh. It should be doable to remove Oh My Zsh code, or replace it with pure Zsh code. Contributions are welcome.
+
+### Does Not Support Other VCSs
+
+It would be nice to support other Version Control Systems, like SVN and Mercurial. For those who are using another VCS, it would take the place of the Git info, so would still adhere to our minimalist philosophy and feature set.
+
+I don't currently have sufficient experience with other VCSs to judge what info users would want under those systems, but contributions are welcome.
+
+### Requires Zsh
+
+This theme could relatively easily be ported to other shells, such as BASH, Fish, or Eshell. The target user of this theme generally hasn't switched shells, so this isn't a high priority, but contributions are still welcome.
 
 ## Additional Setup Recommendations
 
@@ -89,4 +96,3 @@ If you like using Vim bindings on the command line, I recommend adding [this fan
 This project is licensed under the GPL v3. If you'd like to contribute, with ideas or code, please open an issue!
 
 [oh-my-zsh]: https://ohmyz.sh/
-[zsh]: https://zsh.sourceforge.io/
