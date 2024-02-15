@@ -88,8 +88,8 @@ If you like using Vim bindings on the command line, I recommend adding [this fan
 
 ## Prior Art
 
-- I was helped along greatly by the very helpful comments in the excellent wedisagree theme, one of oh-my-zsh's built-in themes. https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/wedisagree.zsh-theme
-- This blog post by Paweł Gościcki assisted with some of the finer points of Vim prompt colorization, along with the comments it inspired: http://pawelgoscicki.com/archives/2012/09/vi-mode-indicator-in-zsh-prompt/
+- I was helped along greatly by the very helpful code comments in the excellent [wedisagree theme](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/wedisagree.zsh-theme), one of oh-my-zsh's built-in themes. 
+- [This blog post by Paweł Gościcki](http://pawelgoscicki.com/archives/2012/09/vi-mode-indicator-in-zsh-prompt/) assisted with some of the finer points of Vim prompt colorization, along with the comments it inspired.
 
 ## Contributing
 
