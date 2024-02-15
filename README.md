@@ -6,18 +6,7 @@ Here is [the Wikipedia page for the Danger Room in the X-Men universe](https://e
 
 ## Feature Walkthrough
 
-### Walking Through It All Visually
-
-- Show left and right prompts by cd-ing around.
-- # It's easy to skim input and output when they line up, so no information is on the left side.
-- # Right side tracks working and parent directories only.
-- # The theme eschews extraneous information easily gettable elsewhere, like the full path, or the current time or user.
-- cd into repo to show minimal git info
-- edit command to show Vim indicator
-
-### A Walkthrough With Text And Screenshots
-
-#### Minimal Left-Side Prompt For Easy History Parsing
+### Minimal Left-Side Prompt For Easy History Parsing
 
 Someone used to the command line can easily skim over the unimportant information to quickly eye the input/output info in a terminal. But it's easier, for new command-line users and experts alike, to have the not-immediately-relevant info kept separate from the always-relevant back-and-forth conversation between user and system that is the command line's main job.
 
@@ -27,7 +16,7 @@ This is why dangerroom's left-hand prompt is simply a symbol and a space and sta
 
 ![Demonstration of easy-to-parse input/output.](./assets/feature-walkthrough-screenshot-1.png "The X-Men believe in left-side prompt minimalism. Or they would, if they were computer hackers.")
 
-#### Vital Info Without Overloading The User
+### Vital Info Without Overloading The User
 
 When the user _does_ want more information than the input/output from their commands, they can look to the right, where they can see have directory and version control information.
 
@@ -38,9 +27,7 @@ Extra info is always easily obtainable, such as the current time or the full pat
 
 ![Demonstration that directory and version control changes don't affect the ease of parsing.](./assets/feature-walkthrough-screenshot-2.png "Marvel would love this prompt as much as the X-Men would., and neither party would ever consider suing me I hope.")
 
-"Make things as simple as possible, but no simpler." - Albert Einstein
-
-#### Current Vim Mode Indicator
+### Current Vim Mode Indicator
 
 For those who use Vim keybindings on the command line, the left-hand symbol changes color when in Normal Mode. This is useful visual feedback that takes up no further space and doesn't complicate the situation for those who use the default keybindings of their shell and terminal emulator.
 
@@ -105,10 +92,10 @@ If you like using Vim bindings on the command line, I recommend adding [this fan
 ## Prior Art
 
 - I was helped along greatly by the very helpful code comments in the excellent [wedisagree theme](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/wedisagree.zsh-theme), one of oh-my-zsh's built-in themes. 
-- [This blog post by Paweł Gościcki](http://pawelgoscicki.com/archives/2012/09/vi-mode-indicator-in-zsh-prompt/) assisted with some of the finer points of Vim prompt colorization, along with the comments it inspired.
+- [This blog post by Paweł Gościcki](http://pawelgoscicki.com/archives/2012/09/vi-mode-indicator-in-zsh-prompt/) assisted with some of the finer points of Vim prompt colorization, as did the user comments for it.
 
 ## Contributing
 
-This project is licensed under the GPL v3. If you'd like to contribute, with ideas or code, please open an issue!
+This project is licensed under the GPL v3. If you'd like to contribute, with ideas or code, please open a GitHub Issue, or check out the open Issues.
 
 [oh-my-zsh]: https://ohmyz.sh/
