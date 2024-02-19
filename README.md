@@ -93,6 +93,17 @@ source ~/.zshrc
 ```
 
 - Get to work in the Danger Room, practicing and sharpening your command line skills.
+### Additional Setup Recommendations
+
+#### Fonts and Terminals
+
+Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques (terminals and fonts) if you want to hone your powers and survive in a superpowered world (have good-looking emojis).
+
+#### Better Vim Keybindings Experience
+
+If you like using Vim bindings on the command line, I recommend adding [this fantastic zsh plugin](https://github.com/softmoth/zsh-vim-mode). It has many useful Vim-on-the-command-line enhancements, such as vim-surround keybindings and a customizable shortcut for switching to Normal Mode.
+
+Using a non-escape shortcut is useful for those who don't like to or can't easily reach or remap the escape key, or for those who use the escape key for something else, as this author does when using Evil Mode in Emacs.
 
 ### Current Issues
 
@@ -113,18 +124,6 @@ I don't currently have sufficient experience with other VCSs to judge what info 
 #### Requires Zsh
 
 This theme could relatively easily be ported to other shells, such as BASH, Fish, or Eshell. The target user of this theme generally hasn't switched shells, so this isn't a high priority, but contributions are still welcome.
-
-### Additional Setup Recommendations
-
-#### Fonts and Terminals
-
-Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques (terminals and fonts) if you want to hone your powers and survive in a superpowered world (have good-looking emojis).
-
-#### Better Vim Keybindings Experience
-
-If you like using Vim bindings on the command line, I recommend adding [this fantastic zsh plugin](https://github.com/softmoth/zsh-vim-mode). It has many useful Vim-on-the-command-line enhancements, such as vim-surround keybindings and a customizable shortcut for switching to Normal Mode.
-
-Using a non-escape shortcut is useful for those who don't like to or can't easily reach or remap the escape key, or for those who use the escape key for something else, as this author does when using Evil Mode in Emacs.
 
 ### Prior Art
 
