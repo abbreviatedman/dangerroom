@@ -65,9 +65,11 @@ source ~/.zshrc
 
 These are fixable issues—please respond to the Issues on the GitHub repo if you'd like to discuss working on them.
 
-### Requires OMZ
+### Requires Oh My Zsh
 
-The most likely user not currently supported by this theme is one who has ZSH (the default on Mac) but has not installed Oh My Zsh. It should be doable to remove Oh My Zsh code, or replace it with pure Zsh code. Contributions are welcome.
+The most likely user not currently supported by this theme is one who has ZSH (the default on Mac) but has not installed Oh My Zsh (which takes a couple extra steps). It should be doable to remove Oh My Zsh code, or replace it with pure Zsh code.
+
+Contributions are welcome.
 
 ### Does Not Support Other VCSs
 
