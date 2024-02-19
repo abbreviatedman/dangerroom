@@ -12,19 +12,19 @@ The information in the terminal can be broken up into 3 main categories:
 2. **Extra information the user needs occasionally**, such as working directory information or the basic version control state.
 3. **_Extra_ extra information**, such as the time, the weather, the current logged-in user, the full path to the working directory, or a deeper dive into version control state.
 
-The most important design philosophy behind this terminal theme is about **how prevalent and visible those 3 categories of data should be for the user**. We believe that we have a clear solution, which is **a theme that prioritizes where those categories of info are visible**.
+The most important design decision a terminal layout designer can make is **how prevalent and visible those 3 categories of data should be for the user**.
 
 According to our prioritization, users should always be able to:
 
 1. **easily see the command/response cycle history**, keeping it right at their eyeline and simply parseable.
 2. **check extra info they occasionally need** by simply glancing away from their main eyeline.
-3. **get rarely needed additional information by entering commands only**, _not_ by adding further noise to the signal/noise ratio by including this usually-extraneous info within sight in a terminal theme.
+3. **get rarely-needed additional information by entering commands _only_**, _not_ by adding further noise to the signal/noise ratio by including this usually-extraneous info within sight in a terminal theme.
 
 The below feature list is how we have gone about implementing this design philosophy.
 
 ### Features
 
-We follow the design philosophy above with:
+We implement the design philosophy above using:
 
 - **A minimal left-side prompt**, making it easy for the user to look straight up and parse command and output history.
 - **The most useful information and nothing else**, so the user can get the vital info they need at a glance, saving extra info for deeper dive commands.
@@ -58,11 +58,11 @@ Extra info is always easily obtainable through explicit commands, such as the cu
 - Rather than _just_ displaying the current directory, which is often insufficient given how many similarly-named directories a user often has, or the full path, which is easily obtained but usually unnecessary, this theme provides the current directory _and_ the parent directory.
 - Similarly, for Git repos, this theme prints out the current branch and the working tree status ("clean" or "dirty"), obviating the need for most `git status` checks, without drowning the user in the many columns of data a deeper status report on their repository would need.
 
-![Demonstration that directory and version control changes don't affect the ease of parsing.](./assets/feature-walkthrough-screenshot-2.png "Marvel would love this prompt as much as the X-Men would., and neither party would ever consider suing me I hope.")
+![Demonstration that directory and version control changes don't affect the ease of parsing.](./assets/feature-walkthrough-screenshot-2.png "Marvel would love this theme as much as the X-Men would, and neither party would ever consider suing me. Right?")
 
 #### Vim Mode Indicator
 
-For those few who use Vim keybindings on the command line, the left-hand symbol changes color when in Normal Mode to help the user track their Mode. This is useful visual feedback, but it takes up no further space (keeping the history easily parsed), and it doesn't complicate the situation for those who use the default keybindings of their shell and terminal emulator.
+For those few who use Vim keybindings on the command line, the left-hand symbol changes color when in Normal Mode to help the user track their current Mode. This is useful visual feedback for some users, but it takes up no further space (keeping the history easily parsed), and it doesn't complicate the situation for those who use the default keybindings of their shell and terminal emulator.
 
 ![Demonstration of Vim Indicator.](./assets/feature-walkthrough-screenshot-3.png "Maybe they'd welcome the tribute. Yessir, I bet they'd even make me an honorary X-Man! \"The Hacker\"? \"Captain Coder\"? \"Mister Middle-Aged\"?")
 
