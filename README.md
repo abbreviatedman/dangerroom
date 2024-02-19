@@ -92,7 +92,8 @@ A similar line should already be in the file—you can change it to look like th
 source ~/.zshrc
 ```
 
-- Get to work in the Danger Room, practicing and sharpening your command line skills.
+- Get to work in the Danger Room, practicing and sharpening your command-line skills.
+
 ### Additional Setup Recommendations
 
 #### Fonts and Terminals
