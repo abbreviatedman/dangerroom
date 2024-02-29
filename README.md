@@ -98,7 +98,7 @@ source ~/.zshrc
 
 #### Fonts and Terminals
 
-Please note that _some_ terminal/font combinations display this theme's symbols either cut off or at half their normal size. Consider experimenting with combining different fighting techniques (terminals and fonts) if you want to hone your powers and survive in a superpowered world (have good-looking emojis).
+Please note that _some_ terminal/font combinations display this theme's symbols either cut off, or at half their normal size, or with simpler emojis than in the examples shown above. Consider experimenting with combining different fighting techniques (terminals and fonts) if you want to hone your powers and survive in a superpowered world (have good-looking emojis).
 
 #### Better Vim Keybindings Experience
 
@@ -125,6 +125,7 @@ I don't currently have sufficient experience with other VCSs to judge what info 
 #### Requires Zsh
 
 This theme could relatively easily be ported to other shells, such as BASH, Fish, or Eshell. The target user of this theme generally hasn't switched shells, so this isn't a high priority, but contributions are still welcome.
+
 
 ### Prior Art
 
