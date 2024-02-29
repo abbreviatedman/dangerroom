@@ -1,8 +1,8 @@
 # dangerroom
 
-dangerroom is an [oh-my-zsh][oh-my-zsh] theme that's informative, minimal, and, above all, X-Men themed. It's designed to focus the eye on the terminal's line-by-line command/response cycle, which is helpful for all users but particularly so for early-career programmers still getting a sense for the command line.
+dangerroom is an [oh-my-zsh][oh-my-zsh] theme that's informative, minimal, and, above all, X-Men themed. It follows design principles meant to focus the user's eye on the terminal's line-by-line command/response cycle.
 
-Like [the original Danger Room in the X-Men universe](https://en.wikipedia.org/wiki/Danger_Room), the dangerroom theme helps you train and improve your skills.
+Like [the original Danger Room in the X-Men universe](https://en.wikipedia.org/wiki/Danger_Room), the dangerroom theme helps you hone and improve your skills.
 
 ### Design Principles
 
@@ -43,9 +43,9 @@ This is why the left side of the dangerroom theme is for **commands and their ou
 
 Furthermore, vertical information is far easier for the human mind to parse quickly than having to scan both horizontally and vertically.
 
-This is why dangerroom's left-hand prompt is a small symbol that stays affixed to the left-hand side no matter what else changes (e.g., the current working directory's character length). This keeps it stable in the eyeline—see any theme with the working directory on the left side for an example of how disruptive to effortless history parsing it can be to have commands in different vertical columns.
+This is why dangerroom's left-hand prompt is a small symbol that stays affixed to the left-hand side no matter what else changes (e.g., the current working directory's character length). This keeps it stable in the eyeline—see any theme with the working directory on the left side for an example of how much more effortful history parsing becomes when commands are in different vertical columns.
 
-The result is a terminal experience that prioritizes the command/response cycle by moving all other visual clutter to the side.
+The result of this minimal and consistent left-side prompt is a terminal experience that prioritizes the command/response cycle.
 
 ![Demonstration of easy-to-parse input/output.](./assets/feature-walkthrough-screenshot-1.png "The X-Men believe in terminal prompt minimalism. Or they would, if they were computer hackers.")
 
@@ -53,10 +53,16 @@ The result is a terminal experience that prioritizes the command/response cycle 
 
 When the user _does_ want more information than the input/output from their commands, they can look to the right, where they can see directory and version control information.
 
-Extra info is always easily obtainable through explicit commands, such as the current time (using `date`, for example), or the full path to the working directory (with `pwd`). Since this information is easily obtainable and rarely used, having it in the user's view would provide visual "noise", making the relevant information harder to find, no matter how used to skimming it the user becomes. At the same time, a bare-minimal theme often fails to provide enough information, making a command-line user have to ask for further information. This theme strikes a balance between the bare minimum some themes provide and the overwhelming data/noise that many others foist upon their users.
+Extra info beyond that is always easily obtainable through explicit commands. The user can obtain the current time using the `date` command, for example, or the full path to the working directory using `pwd`. Since this information is easily obtainable and rarely used, having it in the user's view provides visual "noise", making the relevant information harder to find, no matter how used to skimming it the user becomes.
 
-- Rather than _just_ displaying the current directory, which is often insufficient given how many similarly-named directories a user often has, or the full path, which is easily obtained but usually unnecessary, this theme provides the current directory _and_ the parent directory.
-- Similarly, for Git repos, this theme prints out the current branch and the working tree status ("clean" or "dirty"), obviating the need for most `git status` checks, without drowning the user in the many columns of data a deeper status report on their repository would need.
+On the other side of the spectrum, a bare-minimal theme often fails to provide enough information, making a command-line user have to ask for further information.
+
+This theme strikes a balance between the bare minimum some themes provide and the overwhelming data/noise that many others foist upon their users.
+
+Here are the decisions that strike that balance:
+
+- Rather than give the user the full path, which is easily obtained but usually unnecessary, or just displaying the current directory, which is often insufficient given how many similarly-named directories a user often has, this theme provides the current directory _and_ the parent directory.
+- Similarly, for Git repos, this theme prints out the current branch and the working tree status ("clean" or "dirty"), obviating the need for most `git status` checks without drowning the user in the many columns of data a deeper status report on their repository would provide.
 
 ![Demonstration that directory and version control changes don't affect the ease of parsing.](./assets/feature-walkthrough-screenshot-2.png "Marvel would love this theme as much as the X-Men would, and neither party would ever consider suing me. Right?")
 
